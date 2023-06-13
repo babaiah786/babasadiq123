@@ -1,3 +1,7 @@
 Take a look at your GitHub profile and you'll see your work reflected on your contribution graph.
 
+How it works
+Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. The following examples in this document will focus on this branch merging pattern. In these scenarios, git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
+
+
 For more information about the power of branches and pull requests, see "GitHub flow." For more information about getting started with GitHub, see the other guides in the getting started quickstart.
